@@ -14,13 +14,11 @@
 
 <!-- Put site-specific property overrides in this file. -->
 
-<!-- <configuration>
-<property>
+<configuration>
+<!-- <property>
   <name>fs.defaultFS</name>
   <value>hdfs://localhost:9000</value>
-  </property>
-</configuration> -->
-<configuration> 
+  </property> -->
   <property> 
     <name>hadoop.tmp.dir</name> 
     <value>/usr/local/Cellar/hadoop/hdfs/tmp</value> 
@@ -28,6 +26,6 @@
   </property> 
   <property>
     <name>fs.default.name</name>
-    <value>hdfs://localhost:9000</value> 
-  </property>  -->
-<!-- </configuration>
+    <value>hdfs:localhost:9000</value> 
+  </property>  
+</configuration>
